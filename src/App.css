@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  background-color: black;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +37,112 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.linkk{
+  /* margin: 5px; */
+  text-decoration: none;
+  color: darkgray;
+  font-size: large;
+  width: 100px;
+ 
+}
+.card{
+  
+  background-color: black;
+ padding: 0;
+ z-index: -1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 200ms ease-in-out;
+}
+.card:hover {
+  /* -ms-transform: scale(1.5);
+  -webkit-transform: scale(2.5);  */
+  transform: scale(1.1); 
+}
+.cardtext{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: medium;
+}
+#fstyle{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+}
+
+.row{
+    width: 100%;
+  /* text-align: center; */
+  
+}
+
+@media screen and (max-width:500px) and (min-width:200px) {
+  .linkk{
+    display: none;
+  }
+  .resp{
+    margin-left: 200px;
+  }
+}
+
+.menu{
+  width: 25px;
+  height: 25px;
+  
+}
+.navb{
+  position: sticky;
+  width: 100%;
+}
+@media screen and (min-width:500px){
+ .resp{
+  display: none;
+ }
+}
+.btn {
+  cursor: pointer;
+  /* border: 1px solid #3498db; */
+  background-color: transparent;
+  /* height: 50px;
+  width: 200px;
+  color: #3498db; */
+  /* font-size: 1.5em; */
+  /* box-shadow: 0  6px 6px rgba(0, 0, 0, 0.6); */
+}
+
+.oleft{
+  width: 75%;
+}
+
+.oright{
+  border: white solid 1px;
+  padding: 15px;
+  width: 25%;
+  height: 400px;
+  margin-top: 10%
+}
+
+.over{
+  display: flex;
+}
+
+@media screen and (max-width:500px) and (min-width:200px){
+  .over{
+    display: block;
+  }
+  .oright{
+    width: 80%;
+  }
+}
+.sear{
+  margin-left: 40%;
+  
+}
+.form-control{
+  background-color: black;
+  width: 200px;
+}
+.bttn{
+  border: white solid 1px;
 }
